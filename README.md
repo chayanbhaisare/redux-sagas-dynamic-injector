@@ -12,7 +12,7 @@ Typically when we use redux saga all the sagas are injected at the time of creat
 npm-compatible packaging system such as [webpack](http://webpack.github.io/).
 
 ```
-npm install redux-saga-injector --save
+npm install redux-sagas-dynamic-injector --save
 ```
 
 ## Usage
