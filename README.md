@@ -4,8 +4,6 @@ Allows dynamically injecting sagas into the app at runtime.
 
 Typically when we use redux saga all the sagas are injected at the time of creating redux store. However, this does not allow to add new sagas later which can be lazy loaded or added by plugin modules. This module helps to overcome this issue by allowing to inject sagas dynamically anytime whether it is route change or loading of new component.
 
-![after-open_0 1 4](https://user-images.githubusercontent.com/9765739/28993706-dc317526-7971-11e7-9623-ae7b750c9e32.PNG)
-
 ## Install
 
 ### npm
