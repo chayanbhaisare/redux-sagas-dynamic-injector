@@ -7,6 +7,10 @@
     "build": "babel ./src/index.js --ignore=*.spec.js --out-dir ./lib --presets es2015,react,stage-2,babili",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chayanbhaisare/redux-sagas-dynamic-injector"
+  },
   "keywords": [
     "Redux",
     "Saga",
