@@ -49,11 +49,13 @@ function* getName(){
 // using an ES6 transpiler, like babel
 import injectSagas from './index';
 import testSagas from './sagas';
-const store = configureStore(); // initialize store, we need to pass this store to the injectSagas function
+// initialize store, we need to pass this store to the injectSagas function
+const store = configureStore();
 
 // Just pass the store to the function and inject saga dynamically from any part of the application
 const injectSagasAsync = injectSagas(store);
-injectSagasAsync(testSagas); // use this function to inject sagas
+// use this function to inject sagas
+injectSagasAsync(testSagas);
 ```
 
 ## License
