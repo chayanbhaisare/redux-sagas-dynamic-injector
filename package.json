@@ -1,0 +1,28 @@
+{
+  "name": "redux-sagas-dynamic-injector",
+  "version": "1.0.0",
+  "description": "Library to inject sagas dynamically",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel ./src/index.js --ignore=*.spec.js --out-dir ./lib --presets es2015,react,stage-2,babili",
+    "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./"
+  },
+  "keywords": [
+    "Redux",
+    "Saga",
+    "injector"
+  ],
+  "files": [
+    "lib/index.js"
+  ],
+  "author": "Chayan Bhaisare",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-cli": "^6.24.1",
+    "babel-preset-babili": "^0.1.4",
+  }
+}
